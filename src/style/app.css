@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app-logo {
+  height: 80px;
+}
+
+.app-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.app-intro {
+  font-size: large;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.pn {
+  padding: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.repository-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0px 25px 0px;
+  height: 360px;
+}
+
+.repository-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.repository-detail {
+  margin-bottom: 2px;
+}
+
+.repository-img {
+  width: 100%;
+}
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
